@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1300561266 source:/home/ammar/Documents/Programming/StaffScheduler/InputParser/InputParser_C.c
+	"InputParser_C.h"
+
+1298752716 /home/ammar/Documents/Programming/StaffScheduler/InputParser/InputParser_C.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+

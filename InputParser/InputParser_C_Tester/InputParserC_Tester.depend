@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1268491774 source:/home/ammar/Documents/Programming/InputParser_C/InputParser_C_Tester/main.c
+	<stdio.h>
+	<stdlib.h>
+	"../InputParser_C.h"
+	<time.h>
+
+1265843756 /home/ammar/Documents/Programming/InputParser_C/InputParser_C.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+

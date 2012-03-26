@@ -1,0 +1,3 @@
+#!/bin/bash
+cc main.c ../libInputParser_C.a -L. -o bin/Release/InputParserC_Tester
+exit 0
