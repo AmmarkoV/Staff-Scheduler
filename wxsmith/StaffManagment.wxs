@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="StaffManagment">
+		<title>Staff Managment</title>
+		<centered>1</centered>
+		<size>647,548</size>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxStaticBox" name="ID_STATICBOX2" variable="StaticBox2" member="yes">
+			<label>Εργασίες ατόμου προς ανάθεση</label>
+			<pos>280,240</pos>
+			<size>360,240</size>
+		</object>
+		<object class="wxStaticBox" name="ID_STATICBOX1" variable="StaticBox1" member="yes">
+			<label>Στοιχεία Επιλεγμένου Ατόμου</label>
+			<pos>272,8</pos>
+			<size>368,224</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Όνομα</label>
+			<pos>280,80</pos>
+		</object>
+		<object class="wxListCtrl" name="ID_LISTCTRL1" variable="StaffList" member="yes">
+			<pos>8,32</pos>
+			<size>256,472</size>
+			<style>wxLC_REPORT</style>
+			<handler function="OnStaffListBeginDrag" entry="EVT_LIST_BEGIN_DRAG" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrlName" member="yes">
+			<pos>280,104</pos>
+			<size>160,27</size>
+			<handler function="OnTextCtrlNameText" entry="EVT_TEXT" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>Επίθετο</label>
+			<pos>456,80</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrlSurname" member="yes">
+			<pos>456,104</pos>
+			<size>160,27</size>
+			<handler function="OnTextCtrlSurnameText" entry="EVT_TEXT" />
+		</object>
+		<object class="wxComboBox" name="ID_COMBOBOX1" variable="ComboBoxRank" member="yes">
+			<pos>352,40</pos>
+			<size>265,27</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>Βαθμός</label>
+			<pos>288,44</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="TextCtrlComments" member="yes">
+			<pos>280,160</pos>
+			<size>336,24</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+			<label>Σχόλια</label>
+			<pos>280,136</pos>
+		</object>
+		<object class="wxListCtrl" name="ID_LISTCTRL3" variable="EnlistedJobs" member="yes">
+			<pos>296,320</pos>
+			<size>288,144</size>
+			<style>wxLC_REPORT</style>
+			<handler function="OnEnlistedJobsBeginDrag" entry="EVT_LIST_BEGIN_DRAG" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON5" variable="ButtonRemovePerson" member="yes">
+			<label>Αφαίρεση</label>
+			<pos>176,504</pos>
+			<size>88,29</size>
+			<handler function="OnButtonRemovePersonClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON6" variable="ButtonAddPerson" member="yes">
+			<label>Προσθήκη</label>
+			<pos>8,504</pos>
+			<size>168,29</size>
+			<handler function="OnButtonAddPersonClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON7" variable="ButtonBack" member="yes">
+			<label>Πίσω</label>
+			<pos>480,504</pos>
+			<size>152,32</size>
+			<handler function="OnButtonBackClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+			<label>Εργασίες άνα μήνα</label>
+			<pos>280,206</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="JobsPerMonth" member="yes">
+			<value>0</value>
+			<maxlength>3</maxlength>
+			<pos>424,200</pos>
+			<size>64,27</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON8" variable="ButtonAddJobsToPersonMonth" member="yes">
+			<label>+</label>
+			<pos>496,200</pos>
+			<size>32,24</size>
+			<handler function="OnButtonAddJobsToPersonMonthClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON9" variable="ButtonRemoveJobsToPersonMonth" member="yes">
+			<label>-</label>
+			<pos>528,200</pos>
+			<size>32,24</size>
+			<handler function="OnButtonRemoveJobsToPersonMonthClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT6" variable="StaticText6" member="yes">
+			<label>Ανθρώπινο Δυναμικό</label>
+			<pos>8,8</pos>
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="ButtonAddJob" member="yes">
+			<label>+</label>
+			<pos>592,288</pos>
+			<size>32,24</size>
+			<handler function="OnButtonAddJobClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxComboBox" name="ID_COMBOBOX2" variable="JobToAdd" member="yes">
+			<pos>296,288</pos>
+			<style>wxCB_READONLY</style>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT7" variable="StaticText7" member="yes">
+			<label>x</label>
+			<pos>504,288</pos>
+			<size>16,16</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL5" variable="JobToAddTimes" member="yes">
+			<value>0</value>
+			<pos>528,288</pos>
+			<size>56,27</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON2" variable="ButtonRemoveJob" member="yes">
+			<label>-</label>
+			<pos>592,320</pos>
+			<size>32,24</size>
+			<handler function="OnButtonRemoveJobClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT8" variable="StaticText8" member="yes">
+			<label>Μέγιστος αρ.</label>
+			<pos>528,264</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT9" variable="StaticText9" member="yes">
+			<label>Εργασίες</label>
+			<pos>296,264</pos>
+		</object>
+	</object>
+</wxsmith>

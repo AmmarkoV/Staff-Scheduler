@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="StaffSchedulerMain.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="1009" topLine="176" />
+	</File>
+	<File name="StaffSchedulerMain.h" open="1" top="0" tabpos="2">
+		<Cursor position="935" topLine="12" />
+	</File>
+</CodeBlocks_layout_file>

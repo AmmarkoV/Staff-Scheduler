@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="VacationManagment">
+		<title>Vacation Managment</title>
+		<size>647,548</size>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxButton" name="ID_BUTTON1" variable="ButtonBack" member="yes">
+			<label>Πίσω</label>
+			<pos>504,504</pos>
+			<handler function="OnButtonBackClick" entry="EVT_BUTTON" />
+		</object>
+	</object>
+</wxsmith>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="WorkManagment">
+		<title>Job Managment</title>
+		<centered>1</centered>
+		<size>647,548</size>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxStaticBox" name="ID_STATICBOX1" variable="StaticBox1" member="yes">
+			<label>Στοιχεία Εργασίας</label>
+			<pos>280,8</pos>
+			<size>344,280</size>
+		</object>
+		<object class="wxListCtrl" name="ID_LISTCTRL1" variable="WorkList" member="yes">
+			<pos>8,48</pos>
+			<size>256,456</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>Προσθήκη</label>
+			<pos>8,504</pos>
+			<size>152,29</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+			<label>Αφαίρεση</label>
+			<pos>176,504</pos>
+			<size>88,29</size>
+		</object>
+		<object class="wxRadioBox" name="ID_RADIOBOX1" variable="JobType" member="yes">
+			<label>Εργασίες</label>
+			<content>
+				<item>Ημερίσιες</item>
+				<item>Έκτατες</item>
+			</content>
+			<default>-1</default>
+			<pos>8,8</pos>
+			<size>256,32</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Ημερομηνίες</label>
+			<pos>288,56</pos>
+		</object>
+		<object class="wxCheckBox" name="ID_CHECKBOX1" variable="CheckBoxMonday" member="yes">
+			<label>Δευτέρα</label>
+			<checked>1</checked>
+			<pos>296,72</pos>
+		</object>
+		<object class="wxCheckBox" name="ID_CHECKBOX2" variable="CheckBoxTuesday" member="yes">
+			<label>Τρίτη</label>
+			<checked>1</checked>
+			<pos>296,96</pos>
+		</object>
+		<object class="wxCheckBox" name="ID_CHECKBOX3" variable="CheckBoxWednesday" member="yes">
+			<label>Τετάρτη</label>
+			<checked>1</checked>
+			<pos>296,120</pos>
+		</object>
+		<object class="wxCheckBox" name="ID_CHECKBOX4" variable="CheckBoxThursday" member="yes">
+			<label>Πέμπτη</label>
+			<checked>1</checked>
+			<pos>296,144</pos>
+		</object>
+		<object class="wxCheckBox" name="ID_CHECKBOX5" variable="CheckBoxFriday" member="yes">
+			<label>Παρασκευή</label>
+			<checked>1</checked>
+			<pos>296,168</pos>
+		</object>
+		<object class="wxCheckBox" name="ID_CHECKBOX6" variable="CheckBoxSaturday" member="yes">
+			<label>Σάββατο</label>
+			<checked>1</checked>
+			<pos>296,192</pos>
+		</object>
+		<object class="wxCheckBox" name="ID_CHECKBOX7" variable="CheckBoxSunday" member="yes">
+			<label>Κυριακή</label>
+			<checked>1</checked>
+			<pos>296,216</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>Μετράει ώς </label>
+			<pos>416,128</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="Credits" member="yes">
+			<value>1</value>
+			<pos>512,120</pos>
+			<size>32,27</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>υπηρεσία</label>
+			<pos>552,128</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+			<label>Απαιτεί </label>
+			<pos>416,64</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="PersonsNeeded" member="yes">
+			<value>1</value>
+			<pos>480,58</pos>
+			<size>32,27</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+			<label>άτομο/α</label>
+			<pos>520,64</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT6" variable="StaticText6" member="yes">
+			<label>Επίπεδο Δυσκολίας</label>
+			<pos>416,96</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="Difficulty" member="yes">
+			<value>1</value>
+			<pos>568,88</pos>
+			<size>32,27</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT7" variable="StaticText7" member="yes">
+			<label>Σύνολο ωρών ανα μέρα</label>
+			<pos>416,160</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="HoursPerDay" member="yes">
+			<value>0</value>
+			<pos>584,152</pos>
+			<size>32,27</size>
+		</object>
+		<object class="wxComboBox" name="ID_COMBOBOX1" variable="TypeOfJob" member="yes">
+			<content>
+				<item>Ημερήσια</item>
+				<item>Έκτακτη</item>
+			</content>
+			<selection>0</selection>
+			<pos>416,192</pos>
+			<size>200,27</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL5" variable="Day" member="yes">
+			<value>00</value>
+			<pos>416,232</pos>
+			<size>40,27</size>
+			<enabled>0</enabled>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT8" variable="StaticText8" member="yes">
+			<label>/</label>
+			<pos>464,236</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL6" variable="Month" member="yes">
+			<value>00</value>
+			<pos>480,232</pos>
+			<size>40,27</size>
+			<enabled>0</enabled>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT9" variable="StaticText9" member="yes">
+			<label>/</label>
+			<pos>528,236</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL7" variable="Year" member="yes">
+			<value>2011</value>
+			<pos>544,232</pos>
+			<size>72,27</size>
+			<enabled>0</enabled>
+		</object>
+		<object class="wxListCtrl" name="ID_LISTCTRL2" variable="PersonList" member="yes">
+			<pos>296,320</pos>
+			<size>288,144</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON3" variable="ButtonBack" member="yes">
+			<label>Πίσω</label>
+			<pos>536,504</pos>
+			<handler function="OnButtonBackClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxComboBox" name="ID_COMBOBOX2" variable="ComboBoxPerson" member="yes">
+			<pos>296,288</pos>
+			<size>288,27</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON4" variable="ButtonAddJobToPerson" member="yes">
+			<label>+</label>
+			<pos>590,286</pos>
+			<size>29,29</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT10" variable="StaticText10" member="yes">
+			<label>Περιγραφή</label>
+			<pos>336,30</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL8" variable="JobName" member="yes">
+			<pos>416,24</pos>
+			<size>200,27</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON5" variable="ButtonRemoveJobFromPerson" member="yes">
+			<label>-</label>
+			<pos>590,320</pos>
+			<size>29,29</size>
+		</object>
+	</object>
+</wxsmith>
