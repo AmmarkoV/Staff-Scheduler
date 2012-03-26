@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include "ScheduleCreatorCore.h"
+#include "SCCoreMemory.h"
+
 #include "SCPerson.h"
 #include "ScheduleSorting.h"
 

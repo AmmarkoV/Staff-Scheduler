@@ -50,7 +50,7 @@ int GetWeekDay(int day,int month,  int year)
 
 {
 
-int ix, tx, vx;
+int ix=0, tx=0, vx=0;
 
 switch (month)
 {

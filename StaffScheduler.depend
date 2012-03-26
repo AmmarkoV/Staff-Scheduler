@@ -1356,3 +1356,15 @@
 	<wx/dialog.h>
 	<wx/combobox.h>
 
+1332764352 source:/home/ammar/Documents/Programming/Staff-Scheduler/StaffSchedulerMain.cpp
+	"StaffSchedulerMain.h"
+	<wx/msgdlg.h>
+	<wx/settings.h>
+	<wx/font.h>
+	<wx/intl.h>
+	<wx/string.h>
+	<wx/wxhtml.h>
+	"WorkManagment.h"
+	"StaffManagment.h"
+	"ScheduleCreator/ScheduleCreator.h"
+

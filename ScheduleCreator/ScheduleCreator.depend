@@ -130,3 +130,139 @@
 	"SCCoreMemory.h"
 	"ScheduleCreatorFileIO.h"
 
+1301617264 source:/home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/SCCoreMemory.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ScheduleCreatorCore.h"
+	"SCCoreMemory.h"
+	"ScheduleSorting.h"
+
+1300989248 /home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/ScheduleCreatorCore.h
+
+1332766986 /home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/SCCoreMemory.h
+
+1298252670 /home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/ScheduleSorting.h
+
+1301620608 source:/home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/SCDays.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"SCCoreMemory.h"
+	"ScheduleCreatorCore.h"
+	"SCDays.h"
+
+1301620330 /home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/SCDays.h
+
+1301618632 source:/home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/SCJob.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"SCCoreMemory.h"
+	"ScheduleCreatorCore.h"
+	"ScheduleSorting.h"
+	"SCJob.h"
+
+1301618640 /home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/SCJob.h
+
+1301617446 source:/home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/SCPerson.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"SCCoreMemory.h"
+	"ScheduleCreatorCore.h"
+	"ScheduleSorting.h"
+	"SCPerson.h"
+
+1300995300 /home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/SCPerson.h
+
+1332767111 source:/home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/ScheduleCreatorCalender.c
+	"ScheduleCreatorCalender.h"
+
+1298000392 /home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/ScheduleCreatorCalender.h
+
+1332767047 source:/home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/ScheduleCreatorCore.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ScheduleCreatorCore.h"
+	"SCCoreMemory.h"
+	"SCPerson.h"
+	"ScheduleSorting.h"
+
+1332767010 source:/home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/ScheduleCreatorFileIO.c
+	"SCCoreMemory.h"
+	"SCJob.h"
+	"ScheduleCreatorFileIO.h"
+	"ScheduleCreator.h"
+	"ScheduleCreatorCore.h"
+	"../InputParser/InputParser_C.h"
+
+1298507272 /home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/ScheduleCreatorFileIO.h
+
+1300995910 /home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/ScheduleCreator.h
+
+1298752716 /home/ammar/Documents/Programming/Staff-Scheduler/InputParser/InputParser_C.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1332767093 source:/home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/SchedulePrintouts.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"SCCoreMemory.h"
+	"ScheduleCreatorCalender.h"
+	"ScheduleCreatorCore.h"
+	"SCPerson.h"
+	"SCJob.h"
+	"SCDays.h"
+	"ScheduleStatistics.h"
+	"SchedulePrintouts.h"
+
+1297991502 /home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/ScheduleStatistics.h
+
+1301619206 /home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/SchedulePrintouts.h
+
+1332766931 source:/home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/ScheduleSolver.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ScheduleCreatorCore.h"
+	"SCPerson.h"
+	"SCJob.h"
+	"ScheduleSolver.h"
+	"ScheduleSorting.h"
+
+1298220054 /home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/ScheduleSolver.h
+
+1300559760 source:/home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/ScheduleSorting.c
+	<stdio.h>
+	<stdlib.h>
+	"ScheduleSorting.h"
+	"ScheduleCreatorCore.h"
+	"SCPerson.h"
+
+1299102556 source:/home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/ScheduleStatistics.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"SCCoreMemory.h"
+	"ScheduleCreatorCore.h"
+	"ScheduleStatistics.h"
+
+1332766695 source:/home/ammar/Documents/Programming/Staff-Scheduler/ScheduleCreator/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"ScheduleCreatorCore.h"
+	"SCPerson.h"
+	"SCJob.h"
+	"SchedulePrintouts.h"
+	"ScheduleSolver.h"
+	"SCCoreMemory.h"
+	"ScheduleCreatorFileIO.h"
+

@@ -2,7 +2,7 @@
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Release" />
 	<File name="StaffManagment.cpp" open="1" top="0" tabpos="2">
-		<Cursor position="13550" topLine="267" />
+		<Cursor position="73" topLine="0" />
 	</File>
 	<File name="StaffManagment.h" open="1" top="0" tabpos="5">
 		<Cursor position="337" topLine="0" />
@@ -13,13 +13,13 @@
 	<File name="StaffSchedulerApp.h" open="1" top="0" tabpos="6">
 		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="StaffSchedulerMain.cpp" open="1" top="0" tabpos="1">
-		<Cursor position="346" topLine="0" />
+	<File name="StaffSchedulerMain.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="4111" topLine="96" />
 	</File>
 	<File name="StaffSchedulerMain.h" open="1" top="0" tabpos="7">
 		<Cursor position="3739" topLine="30" />
 	</File>
-	<File name="VacationManagment.cpp" open="1" top="1" tabpos="8">
+	<File name="VacationManagment.cpp" open="1" top="0" tabpos="8">
 		<Cursor position="297" topLine="0" />
 	</File>
 	<File name="WorkManagment.cpp" open="1" top="0" tabpos="4">

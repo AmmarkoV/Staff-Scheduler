@@ -1,6 +1,7 @@
 #include "StaffManagment.h"
 
 #include "ScheduleCreator/ScheduleCreator.h"
+
 #include <wx/msgdlg.h>
 //(*InternalHeaders(StaffManagment)
 #include <wx/intl.h>

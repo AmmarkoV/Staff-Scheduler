@@ -13,6 +13,7 @@ int ClearCorePersons();
 int ClearCoreJobs();
 int ClearCore();
 
+unsigned int GetTotalJobidAssignmentsAtDay(unsigned int day,unsigned int jobid);
 
 int Memory_CheckDayJobPersonAssignment(unsigned int day,unsigned int jobid,unsigned int personid);
 int Memory_AddDayJobPersonAssignment(unsigned int day,unsigned int jobid,unsigned int personid);

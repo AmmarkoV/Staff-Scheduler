@@ -1,4 +1,6 @@
 #include "SCCoreMemory.h"
+
+#include "SCJob.h"
 #include "ScheduleCreatorFileIO.h"
 #include "ScheduleCreator.h"
 #include "ScheduleCreatorCore.h"

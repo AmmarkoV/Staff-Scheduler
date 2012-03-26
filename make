@@ -14,8 +14,7 @@ cd ..
 echo "Compiling files.."
 
 MAINFILES="StaffManagment.cpp StaffSchedulerApp.cpp StaffSchedulerMain.cpp VacationManagment.cpp WorkManagment.cpp"
-
-SUBLIBS="InputParser/libInputParser_C.a ScheduleCreator/libScheduleCreator.a"
+SUBLIBS="ScheduleCreator/libScheduleCreator.a InputParser/libInputParser_C.a"
 
 g++ $MAINFILES $SUBLIBS `wx-config --libs` `wx-config --cxxflags` -L. -pthread -o bin/Release/StaffScheduler
 

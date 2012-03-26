@@ -3,6 +3,7 @@
 #include <string.h>
 #include "ScheduleCreatorCore.h"
 #include "SCPerson.h"
+#include "SCJob.h"
 #include "ScheduleSolver.h"
 #include "ScheduleSorting.h"
 

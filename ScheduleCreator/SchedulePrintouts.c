@@ -5,6 +5,8 @@
 #include "ScheduleCreatorCalender.h"
 #include "ScheduleCreatorCore.h"
 #include "SCPerson.h"
+#include "SCJob.h"
+#include "SCDays.h"
 #include "ScheduleStatistics.h"
 #include "SchedulePrintouts.h"
 
