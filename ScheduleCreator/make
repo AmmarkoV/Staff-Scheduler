@@ -1,0 +1,28 @@
+#!/bin/bash
+echo "Hand made make script for Staff Scheduler Library .." 
+echo "Written by Ammar Qammaz a.k.a AmmarkoV :) "
+ 
+
+echo "Compiling files.."
+ 
+
+gcc -c SCCoreMemory.c -o SCCoreMemory.o
+gcc -c ScheduleCreatorCalender.c -o ScheduleCreatorCalender.o
+gcc -c ScheduleCreatorCore.c -o ScheduleCreatorCore.o
+gcc -c ScheduleCreatorCoreAccess.c -o ScheduleCreatorCoreAccess.o
+gcc -c ScheduleCreatorFileIO.c -o ScheduleCreatorFileIO.o 
+gcc -c SchedulePrintouts.c -o SchedulePrintouts.o 
+gcc -c ScheduleSolver.c -o ScheduleSolver.o 
+gcc -c ScheduleSorting.c -o ScheduleSorting.o 
+gcc -c ScheduleStatistics.c -o ScheduleStatistics.o 
+gcc -c main.c -o main.o 
+
+echo "Linking files.."
+ar  rcs libScheduleCreator.a main.o SCCoreMemory.o ScheduleCreatorCore.o ScheduleCreatorCoreAccess.o ScheduleCreatorFileIO.o SchedulePrintouts.o ScheduleCreatorCalender.o ScheduleStatistics.o ScheduleSorting.o ScheduleSolver.o 
+
+echo "Cleaning compiled object files.."
+rm main.o SCCoreMemory.o ScheduleCreatorCore.o ScheduleCreatorCoreAccess.o ScheduleCreatorFileIO.o SchedulePrintouts.o ScheduleCreatorCalender.o ScheduleStatistics.o ScheduleSorting.o ScheduleSolver.o 
+
+
+echo "Done.."
+exit 0
