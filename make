@@ -13,7 +13,11 @@ cd ..
 
 echo "Compiling files.."
 
-g++ StaffManagment.cpp StaffManagment.h StaffSchedulerApp.cpp StaffSchedulerApp.h StaffSchedulerMain.cpp StaffSchedulerMain.h VacationManagment.cpp VacationManagment.h WorkManagment.cpp WorkManagment.h ScheduleCreator/libScheduleCreator.a InputParser/libInputParser.a  `wx-config --libs` `wx-config --cxxflags` -L. -pthread -o bin/Debug/StaffScheduler
+MAINFILES="StaffManagment.cpp StaffSchedulerApp.cpp StaffSchedulerMain.cpp VacationManagment.cpp WorkManagment.cpp"
+
+SUBLIBS="InputParser/libInputParser_C.a ScheduleCreator/libScheduleCreator.a"
+
+g++ $MAINFILES $SUBLIBS `wx-config --libs` `wx-config --cxxflags` -L. -pthread -o bin/Release/StaffScheduler
 
 
 echo "Done.."
